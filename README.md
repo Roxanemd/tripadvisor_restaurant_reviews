@@ -20,7 +20,7 @@ Launch this command in the scrapy_tripadvisor_reviews/tripadvisor subdirectory :
 scrapy crawl fr_tripadvisor -o result_fr.json
 ```
 
-We are calling the fr_tripadvisor.py spider and telling it to output to a file.
+We are calling the fr_tripadvisor.py spider and telling it to output to a json file. A csv with the reviews if also created.
 Programs opens a Firefox window to defined url. Each page is loaded in window while items are being parsed. Time to parse 1000 reviews is about a few minuts on my machine.
 
 
@@ -64,7 +64,8 @@ reviews = sel.xpath('//div[@class="wrap"]')
 ### Difficulties
 
 I find it hard to obtain a nice full result of the review. It was hard to access the whole element and not the summary.
-In some cases I also have a part of the restaurant owner response in the item. 
+In some cases I also have a part of the restaurant owner response in the item.
+Definitely ways for improvement
 
 # Langages for reviews
 Working on english reviews
