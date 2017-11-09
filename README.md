@@ -64,7 +64,7 @@ reviews = sel.xpath('//div[@class="wrap"]')
 ### Difficulties
 
 I find it hard to obtain a nice full result of the review. It was hard to access the whole element and not the summary.
-In some cases I also have a part of the restaurant owner in the item. 
+In some cases I also have a part of the restaurant owner response in the item. 
 
 # Langages for reviews
 Working on english reviews
