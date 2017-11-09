@@ -8,9 +8,9 @@ These instructions will get you an introduction of the program and running it fo
 
 ### Prerequisites
 
-Python 2.7 
-Scrapy
-Selenium
+-Python 2.7 
+-Scrapy
+-Selenium
 
 Tested on Ubuntu 14.04
 
