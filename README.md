@@ -14,10 +14,11 @@ Tested on Ubuntu 14.04
 
 ### How to start program
 
+New test script has been added in spiders folder. The script is called new_spider.py
 Launch this command in the scrapy_tripadvisor_reviews/tripadvisor subdirectory :
 
 ```sh
-scrapy crawl fr_tripadvisor -o result_fr.json
+scrapy crawl fr_test_tripadvisor -o fr_test.json
 ```
 
 We are calling the fr_tripadvisor.py spider and telling it to output to a json file. A csv with the reviews if also created.
